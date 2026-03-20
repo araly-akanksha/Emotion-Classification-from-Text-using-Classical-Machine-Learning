@@ -60,3 +60,6 @@ if st.button("Predict"):
     else:
         result = predict(user_input)
         st.success(f"Emotion: {result}")
+
+st.title("🧠 Emotion Detection App")
+st.markdown("### Enter text and detect emotion instantly")
