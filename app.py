@@ -51,8 +51,6 @@ def predict(text):
 st.title("🧠 Emotion Detection App")
 st.markdown("### Enter text and detect emotion instantly")
 
-st.write("Enter a sentence to detect emotion")
-
 user_input = st.text_area("Enter text:")
 
 if st.button("Predict"):
