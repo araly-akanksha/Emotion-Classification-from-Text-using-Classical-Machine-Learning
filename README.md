@@ -8,7 +8,14 @@ It combines:
 - **Lexicon-based features**
 - **Logistic Regression**
 
-The model is deployed as a **Streamlit web application** for real-time predictions.
+The model is deployed as a **live web application** using Streamlit.
+
+---
+
+## 🌐 Live Demo
+
+👉 **Try the app here:**  
+[Emotion Classification form Text](https://emotion-classification-from-text-using-classical-machine-learn.streamlit.app/)
 
 ---
 
@@ -135,12 +142,6 @@ This generates:
 ### 3️⃣ Run the App
 streamlit run app.py
 
-
-### 4️⃣ Open in Browser
-
-[Emotion-Classification](https://emotion-classification-from-text-using-classical-machine-learn.streamlit.app/)
-
-
 ---
 
 ## 📸 Example
@@ -153,24 +154,23 @@ I am feeling very happy today
 
 😊 Happy
 
-
 ---
 
 ## 🔮 Future Improvements
 - Add more emotion classes  
-- Improve dataset  
-- Try advanced models  
-- Deploy online  
+- Improve dataset quality  
+- Use advanced models  
+- Enhance UI/UX  
 
 ---
 
 ## 🎓 Conclusion
-This project demonstrates that **classical machine learning combined with feature engineering** can effectively perform emotion classification while remaining interpretable and efficient.
+This project demonstrates how **classical machine learning combined with feature engineering** can effectively perform emotion classification while remaining interpretable and efficient.
 
 ---
 
 ## 👩‍💻 Author
-Akanksha Naidu  
+**Akanksha Naidu**  
 MSc Big Data Analytics  
 
 ---
