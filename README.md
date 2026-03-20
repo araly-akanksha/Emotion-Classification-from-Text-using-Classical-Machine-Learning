@@ -15,7 +15,8 @@ The model is deployed as a **live web application** using Streamlit.
 ## 🌐 Live Demo
 
 👉 **Try the app here:**  
-[Emotion Classification form Text](https://emotion-classification-from-text-using-classical-machine-learn.streamlit.app/)
+[Emotion Classification from Text](https://emotion-classification-from-text-using-classical-machine-learn.streamlit.app/)
+
 
 ---
 
