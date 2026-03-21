@@ -65,6 +65,45 @@ The model is deployed as a **live web application** using Streamlit.
 | Logistic Regression | 0.9154   |
 
 ---
+## 📊 Accuracy Improvement Visualization
+
+![Accuracy Comparison](accuracy_comparison.png)
+
+This graph shows the improvement in model performance after increasing the dataset size from 2,000 to 16,000 samples.
+
+## 📊 Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+The confusion matrix shows how well the model classifies each emotion.  
+Diagonal values represent correct predictions, while off-diagonal values indicate misclassifications.
+
+---
+
+## 🧠 Model Explanation
+
+### 🔹 Why Logistic Regression performed better?
+
+- It handles high-dimensional data efficiently  
+- Works well with TF-IDF features  
+- Captures relationships between features better than Naive Bayes  
+- Provides better separation between emotion classes  
+
+### 🔹 Why Naive Bayes performed lower?
+
+- Assumes feature independence (which is not always true in text data)  
+- Less effective when features are correlated  
+
+### 🔹 Key Insight
+
+Increasing dataset size significantly improved performance because:
+- More data → better generalization  
+- Reduced overfitting  
+- Improved pattern recognition  
+
+👉 Final model: **Logistic Regression**
+
+---
 
 ## 🚀 Improvement Analysis
 
