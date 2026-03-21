@@ -32,23 +32,24 @@ The model is deployed as a **live web application** using Streamlit.
 
 ---
 
-## 📊 Dataset Improvement
+## 📊 Dataset Enhancement
 
-| Stage        | Dataset Size |
-|-------------|-------------|
-| Initial     | ~2,000 rows |
-| Updated     | ~16,000 rows |
+- Initial dataset: ~2,000 rows  
+- Updated dataset: ~16,000 rows with improved feature distribution  
 
-👉 Increasing dataset size improved:
-- Model generalization  
-- Prediction reliability  
-- Overall accuracy  
+### Impact:
+- Better generalization  
+- Reduced overfitting  
+- Improved accuracy  
+- More stable predictions  
+
+👉 Updating dataset quality and distribution significantly improved model performance.
 
 ---
 
 ## 📈 Model Performance Comparison
 
-### 🔹 Before Dataset Expansion
+### 🔹 Before Dataset Improvement
 
 | Model                | Accuracy |
 |---------------------|----------|
@@ -57,19 +58,20 @@ The model is deployed as a **live web application** using Streamlit.
 
 ---
 
-### 🔹 After Dataset Expansion
+### 🔹 After Dataset Improvement
 
 | Model                | Accuracy |
 |---------------------|----------|
-| Naive Bayes         | 0.7833   |
-| Logistic Regression | 0.9154   |
+| Naive Bayes         | 0.8513   |
+| Logistic Regression | 0.9246   |
 
 ---
 ## 📊 Accuracy Improvement Visualization
 
 ![Accuracy Comparison](accuracy_comparison.png)
 
-This graph shows the improvement in model performance after increasing the dataset size from 2,000 to 16,000 samples.
+This graph shows the improvement in model accuracy after updating the dataset from 2000 rows to 20000 rows and feature distribution.  
+Significant performance gains can be observed for both models, especially Logistic Regression.
 
 ## 📊 Confusion Matrix
 
@@ -107,10 +109,12 @@ Increasing dataset size significantly improved performance because:
 
 ## 🚀 Improvement Analysis
 
-- Accuracy improved significantly after increasing dataset size  
-- Naive Bayes improved by **~17%**  
-- Logistic Regression improved by **~21%**  
-- Logistic Regression clearly performs better for this task  
+- Accuracy improved significantly after updating the dataset and feature distribution  
+- Naive Bayes improved from **60.84% → 85.13%**  
+- Logistic Regression improved from **70.42% → 92.46%**  
+- Logistic Regression remains the best-performing model  
+
+👉 This demonstrates the strong impact of data quality and feature improvements on model performance.
 
 ---
 
@@ -235,6 +239,15 @@ I am feeling very happy today
 😊 Happy
 
 ---
+## 🧠 Key Insight
+
+This project demonstrates that:
+
+- Data quality matters more than model complexity  
+- Even simple models can achieve high accuracy with good features  
+- Iterative improvements (dataset + features) significantly boost performance
+
+---
 
 ## 🔮 Future Improvements
 - Add more emotion categories  
@@ -245,11 +258,14 @@ I am feeling very happy today
 ---
 
 ## 🎓 Conclusion
-Increasing the dataset size from **2,000 to 16,000 samples** significantly improved model performance.
 
-- Logistic Regression achieved the best accuracy (**91.54%**)  
-- Dataset scaling played a crucial role in improving results  
-- The project demonstrates the importance of data quality in machine learning  
+Improving the dataset size and feature distribution led to a significant increase in model performance.
+
+- Logistic Regression achieved the highest accuracy (**92.46%**)  
+- Naive Bayes also showed strong improvement (**85.13%**)  
+- The project highlights the importance of data quality in machine learning  
+
+👉 Better data → Better model performance
 
 ---
 
