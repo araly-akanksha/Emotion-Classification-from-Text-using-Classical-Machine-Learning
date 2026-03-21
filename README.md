@@ -6,7 +6,7 @@ This project builds an **emotion classification system** that predicts emotions 
 It combines:
 - **TF-IDF features**
 - **Lexicon-based features**
-- **Logistic Regression**
+- **Naive Bayes & Logistic Regression**
 
 The model is deployed as a **live web application** using Streamlit.
 
@@ -17,7 +17,6 @@ The model is deployed as a **live web application** using Streamlit.
 👉 **Try the app here:**  
 [Emotion Classification from Text](https://emotion-classification-from-text-using-classical-machine-learn.streamlit.app/)
 
-
 ---
 
 ## 🎯 Objectives
@@ -27,38 +26,86 @@ The model is deployed as a **live web application** using Streamlit.
   - 😡 Angry
   - 😨 Fear
 - Use interpretable machine learning techniques
-- Combine statistical and rule-based features
+- Compare multiple ML models
+- Improve accuracy using larger datasets
 - Build a real-time prediction system
+
+---
+
+## 📊 Dataset Improvement
+
+| Stage        | Dataset Size |
+|-------------|-------------|
+| Initial     | ~2,000 rows |
+| Updated     | ~16,000 rows |
+
+👉 Increasing dataset size improved:
+- Model generalization  
+- Prediction reliability  
+- Overall accuracy  
+
+---
+
+## 📈 Model Performance Comparison
+
+### 🔹 Before Dataset Expansion
+
+| Model                | Accuracy |
+|---------------------|----------|
+| Naive Bayes         | 0.6084   |
+| Logistic Regression | 0.7042   |
+
+---
+
+### 🔹 After Dataset Expansion
+
+| Model                | Accuracy |
+|---------------------|----------|
+| Naive Bayes         | 0.7833   |
+| Logistic Regression | 0.9154   |
+
+---
+
+## 🚀 Improvement Analysis
+
+- Accuracy improved significantly after increasing dataset size  
+- Naive Bayes improved by **~17%**  
+- Logistic Regression improved by **~21%**  
+- Logistic Regression clearly performs better for this task  
 
 ---
 
 ## ⚙️ Methodology
 
 ### 🔹 Data Preprocessing
-- Convert text to lowercase
-- Remove special characters
-- Clean text for consistency
+- Convert text to lowercase  
+- Remove special characters  
+- Clean text  
 
 ### 🔹 Feature Engineering
 
 #### 📊 TF-IDF
-- Converts text into numerical form
-- Captures importance of words
-- Limited to 3000 features
+- Converts text into numerical form  
+- Captures word importance  
+- Limited to 3000 features  
 
 #### 📘 Lexicon Features
-- Counts emotion-related words
-- Adds human knowledge to the model
-- Improves interpretability
+- Counts emotion-related words  
+- Adds human knowledge  
+- Improves interpretability  
 
 ---
 
-## 🤖 Model
-- Logistic Regression (Multi-class classification)
-- Chosen for:
-  - Simplicity
-  - Interpretability
-  - Efficiency
+## 🤖 Models Used
+
+### 1️⃣ Naive Bayes
+- Simple and fast  
+- Suitable for text classification  
+
+### 2️⃣ Logistic Regression (Final Model ✅)
+- Better performance  
+- Handles complex patterns  
+- Higher accuracy  
 
 ---
 
@@ -72,27 +119,20 @@ The model is deployed as a **live web application** using Streamlit.
 
 ---
 
-## 📈 Evaluation
-- Accuracy Score  
-- Confusion Matrix  
-- Classification Report  
-
----
-
 ## 🌐 Deployment
 The model is deployed using **Streamlit**, enabling:
-- Real-time text input
-- Instant emotion prediction
-- Interactive UI
+- Real-time text input  
+- Instant emotion prediction  
+- Interactive UI  
 
 ---
 
 ## 💡 Key Features
-- Classical ML (No Deep Learning)
-- Interpretable Model
-- Fast and Lightweight
-- Real-time Predictions
-- Simple UI
+- Classical ML (No Deep Learning)  
+- Model Comparison (NB vs LR)  
+- Improved Accuracy with Larger Dataset  
+- Real-time Predictions  
+- Live Web Application 🌐  
 
 ---
 
@@ -158,15 +198,19 @@ I am feeling very happy today
 ---
 
 ## 🔮 Future Improvements
-- Add more emotion classes  
-- Improve dataset quality  
-- Use advanced models  
+- Add more emotion categories  
+- Try advanced ML/DL models  
+- Improve feature engineering  
 - Enhance UI/UX  
 
 ---
 
 ## 🎓 Conclusion
-This project demonstrates how **classical machine learning combined with feature engineering** can effectively perform emotion classification while remaining interpretable and efficient.
+Increasing the dataset size from **2,000 to 16,000 samples** significantly improved model performance.
+
+- Logistic Regression achieved the best accuracy (**91.54%**)  
+- Dataset scaling played a crucial role in improving results  
+- The project demonstrates the importance of data quality in machine learning  
 
 ---
 
