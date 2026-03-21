@@ -35,7 +35,7 @@ The model is deployed as a **live web application** using Streamlit.
 ## 📊 Dataset Enhancement
 
 - Initial dataset: ~2,000 rows  
-- Updated dataset: ~16,000 rows with improved feature distribution  
+- Updated dataset: ~20,000 rows with improved feature distribution  
 
 ### Impact:
 - Better generalization  
@@ -70,7 +70,7 @@ The model is deployed as a **live web application** using Streamlit.
 
 ![Accuracy Comparison](accuracy_comparison.png)
 
-This graph shows the improvement in model accuracy after updating the dataset from 2000 rows to 20000 rows and feature distribution.  
+This graph shows the improvement in model accuracy after updating the dataset from 2,000 rows to 20,000 rows and feature distribution.  
 Significant performance gains can be observed for both models, especially Logistic Regression.
 
 ## 📊 Confusion Matrix
